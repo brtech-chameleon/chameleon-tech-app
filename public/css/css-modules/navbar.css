@@ -1,0 +1,42 @@
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #549cf4; 
+    width: 100%;
+    padding: 16px;
+    justify-content: space-between;
+    background: linear-gradient(to top,  #5664b5 , #de26e4);
+}
+
+.navbar .navbar-brand{
+    width: auto;
+    border: 1px solid red;
+}
+
+.navbar-menu ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 100%;
+    border: 1px solid red;
+    height: 100%;
+}
+
+.navbar ul li{
+    margin: auto 0;
+    padding: 8px;
+}
+
+.navbar ul li > a{
+    padding: 8px;
+}
+
+
+.navbar ul li> a:hover{
+    color: white;
+    transition:all 1s;
+    background-color: #de26e4;
+    padding: 8px;
+}
