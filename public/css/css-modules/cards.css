@@ -22,9 +22,6 @@
 
 }
 
-/*.card-group .card:first-child{
-    margin-left: 0;
-}*/
 .card .card-header{
     width: 100%;
     display: flex;
@@ -47,6 +44,7 @@
 }
 
 .card .card-content span{
+    margin-top: 8px ;
     max-width: 250px;
     font-size: 80%;
 }

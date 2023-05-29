@@ -2,11 +2,9 @@
 
 @section('title', 'Nossos serviços')
 
-@include('site.layout.partials.header.menu')
-
 @section('content')
     <h2>Nossos Serviços</h2>
-    
+
     <div class="card-group">
         <div class="card card-basic-bg">
             <div class="card-header">
