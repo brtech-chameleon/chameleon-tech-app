@@ -1,6 +1,9 @@
-<nav class="navbar">
+<nav class="navbar nav-bg-dark">
     <div class="navbar-brand">
-        <a href="/"><img class="avatar" src="{{asset('img/chameleon.jpg')}}" alt=""> </a>
+        <a href="/">
+            <img class="avatar" src="{{asset('img/no-bg-chameleon.png')}}" alt="">
+            <span class="text-brand">Chameleon Tech</span>
+        </a>
     </div>
     <div class="navbar-menu">
         <ul>

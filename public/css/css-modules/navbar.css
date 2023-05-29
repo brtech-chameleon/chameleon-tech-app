@@ -3,15 +3,39 @@
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #549cf4; 
-    width: 100%;
     padding: 16px;
+    max-width: 100%;
     justify-content: space-between;
+    
+}
+
+
+.bg-nav{
     background: linear-gradient(to top,  #5664b5 , #de26e4);
+}
+
+.bg-normal{
+    background-color: #de26e4;
+}
+
+.nav-bg-dark{
+    background: linear-gradient(to right,  #8290b4 , #5664b5, #de26e4);
 }
 
 .navbar .navbar-brand{
     width: auto;
-    border: 1px solid red;
+    display: flex;
+    color: inherit;
+    
+}
+
+.navbar .navbar-brand a{
+    text-decoration:  none;
+}
+
+.navbar-brand .text-brand{
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navbar-menu ul
@@ -27,10 +51,12 @@
 .navbar ul li{
     margin: auto 0;
     padding: 8px;
+    color: white;
 }
 
 .navbar ul li > a{
     padding: 8px;
+    color: white;
 }
 
 
